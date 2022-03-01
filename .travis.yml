@@ -11,7 +11,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 script:
 - echo "Starting build!"
-- bundle exec jekyll build
+- .travis.yml
 - echo "Finished build."
 jobs:
   include:
